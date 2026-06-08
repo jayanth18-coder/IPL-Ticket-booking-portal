@@ -1,0 +1,85 @@
+create database ipl;
+
+create table adminlogin( u varchar(100), p varchar(100));
+ 
+
+insert into adminlogin values('a','a');
+create table signup (emailid varchar(100), pwd varchar(100), fullname varchar(100), gender varchar(100),dob varchar(100), addr varchar(100), ph varchar(100));
+
+
+create table ticket(
+matchno  varchar(100),
+team varchar(100),
+place varchar(100), 
+dom varchar(100),
+ttypen varchar(100),
+pricen varchar(100),
+avln varchar(100),
+ttypee varchar(100),
+pricee varchar(100),
+avle varchar(100),
+coachteam1 varchar(100),
+coachteam2 varchar(100),
+umpire1 varchar(100),
+umpire2 varchar(100),
+umpire3 varchar(100)
+);
+
+
+create table booking (
+mno varchar(100),
+tktno  varchar(100),
+venue varchar(100),
+date varchar(100),
+ttype varchar(100),
+amt varchar(100),email varchar(100)
+);
+**********************
+create table diamond (
+pid  varchar(100),
+pdesc varchar(100), Bangle,Necklace,Ring
+rate varchar(100),
+pic varchar(100),
+weight varchar(100));
+
+create table platinum (
+pid  varchar(100),
+pdesc varchar(100), Bangle,Necklace,Ring
+rate varchar(100),
+pic varchar(100),
+weight varchar(100));
+
+pay
+
+create table carttemp(pid varchar(100),pdesc varchar(100),rate varchar(100), pic varchar(100),category varchar(100));
+
+payment1
+payment2
+
+create table gold(
+pid  varchar(100),
+pdesc varchar(100),
+rate varchar(100),
+pic varchar(100),
+weight varchar(100));
+
+create table silver (
+pid  varchar(100),
+pdesc varchar(100),
+rate varchar(100),
+pic varchar(100),
+weight varchar(100));
+
+create table diamond (
+pid  varchar(100),
+pdesc varchar(100),
+rate varchar(100),
+pic varchar(100),
+weight varchar(100));
+
+create table platinum (
+pid  varchar(100),
+pdesc varchar(100), 
+rate varchar(100),
+pic varchar(100),
+weight varchar(100));
